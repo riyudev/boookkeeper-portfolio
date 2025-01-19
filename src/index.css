@@ -1,10 +1,10 @@
 @tailwind base;
 @layer base {
   h1 {
-    @apply text-6xl font-montserratBold;
+    @apply text-5xl font-montserratExtraBold text-beige;
   }
   h2 {
-    @apply text-4xl font-montserratBold;
+    @apply text-4xl font-montserratBold text-beige;
   }
   h3 {
     @apply font-montserratBold text-xl;

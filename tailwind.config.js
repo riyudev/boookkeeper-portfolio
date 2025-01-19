@@ -12,6 +12,7 @@ export default {
         beige: "#E9E6DD",
         mybrown: "#C4AD9D",
         olive: "#445D48",
+        myorange: "#CD853F",
       },
       fontFamily: {
         poppinsRegular: ["poppins-regular"],

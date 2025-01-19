@@ -20,3 +20,7 @@
   src: local("Montserrat-ExtraBold"),
     url("./fonts/Montserrat-ExtraBold.ttf") format("truetype");
 }
+
+html {
+  scroll-behavior: smooth;
+}
