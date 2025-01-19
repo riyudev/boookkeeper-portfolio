@@ -1,0 +1,25 @@
+@tailwind base;
+@layer base {
+  h1 {
+    @apply text-6xl font-montserratBold;
+  }
+  h2 {
+    @apply text-4xl font-montserratBold;
+  }
+  h3 {
+    @apply font-montserratBold text-xl;
+  }
+  h4 {
+    @apply font-montserratBold text-base;
+  }
+  li,
+  button {
+    @apply font-montserratBold text-beige text-lg;
+  }
+  label,
+  p {
+    @apply font-poppinsRegular text-beige text-sm laptop:text-lg;
+  }
+}
+@tailwind components;
+@tailwind utilities;

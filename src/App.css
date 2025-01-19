@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "poppins-regular";
+  src: local("Poppins-Regular"),
+    url("./fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "poppins-bold";
+  src: local("Poppins-Bold"), url("./fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "montserrat-bold";
+  src: local("Montserrat-Bold"),
+    url("./fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "montserrat-extrabold";
+  src: local("Montserrat-ExtraBold"),
+    url("./fonts/Montserrat-ExtraBold.ttf") format("truetype");
+}
