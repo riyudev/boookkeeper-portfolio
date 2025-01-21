@@ -7,10 +7,10 @@
     @apply text-4xl font-montserratBold text-beige;
   }
   h3 {
-    @apply font-montserratBold text-xl;
+    @apply font-montserratBold text-3xl text-beige;
   }
   h4 {
-    @apply font-montserratBold text-base;
+    @apply font-montserratBold text-base text-beige;
   }
   li,
   button {
