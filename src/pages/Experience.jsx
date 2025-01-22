@@ -5,6 +5,18 @@ function Experience() {
     {
       company: "PMI GRANITE",
       role: "Bookkeeper",
+      duration: "2024 - Present",
+      tasks: [
+        "Prepare Profit and Loss",
+        "Invoicing",
+        "BAS / IAS Preparation / Lodging",
+        "Prepare Balance Sheet",
+        "Superannuation Preparation / Lodging",
+      ],
+    },
+    {
+      company: "PMI GRANITE",
+      role: "Bookkeeper",
       duration: "2023-2024",
       tasks: [
         "Recoding daily transaction",
@@ -43,19 +55,20 @@ function Experience() {
       role: "Accounts Payable",
       duration: "2023-2024",
       tasks: [
-        "Recoding daily transaction",
-        "Prepare Financial Statement",
-        "Bank Reconciliation",
-        "Billing",
-        "Prepare Month End Report",
+        "Variance Analysis",
+        "Encoding data",
+        "Preparing Invoices for payment",
+        "Checking and Analyzing invoices",
+        "Monitor payables to avoid overdue account",
       ],
     },
   ];
 
   return (
-    <section id="experience" className="min-h-screen pt-28 space-y-10">
+    <section id="experience" className="pt-28 space-y-10">
       <h2>My Experiences</h2>
-      <div className="grid grid-cols-2 gap-10">
+
+      <div className="grid grid-cols-2 gap-10 p-10">
         {experiences.map((experience, index) => (
           <figure
             key={index}

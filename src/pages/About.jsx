@@ -33,8 +33,9 @@ const getStars = (rating) => {
 
 function About() {
   return (
-    <section id="about" className="min-h-screen pt-28 space-y-10">
+    <section id="about" className="pt-28 space-y-10">
       <h2 className="te">About Me</h2>
+
       <div className="flex flex-col items-center justify-center space-y-10">
         <figure className="flex items-center justify-center p-10 space-x-6">
           <div className="max-w-md bg-mybrown/50 p-4 rounded-xl shadow-md shadow-mybrown">
@@ -59,7 +60,7 @@ function About() {
           </blockquote>
         </figure>
 
-        <div className="flex flex-col w-full space-y-10">
+        <div className="w-full space-y-10 px-10 pb-10">
           <h3 className="place-self-center text-center">Skills & Services</h3>
 
           <figure className="grid grid-cols-2 gap-8 bg-mybrown/50 p-10 rounded-xl shadow-md shadow-mybrown">
