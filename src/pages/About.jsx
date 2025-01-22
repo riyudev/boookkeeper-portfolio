@@ -37,11 +37,11 @@ function About() {
       <h2 className="te">About Me</h2>
       <div className="flex flex-col items-center justify-center space-y-10">
         <figure className="flex items-center justify-center p-10 space-x-6">
-          <div className="max-w-md bg-mybrown/50 p-4 rounded-xl">
+          <div className="max-w-md bg-mybrown/50 p-4 rounded-xl shadow-md shadow-mybrown">
             <img src={Chinmae} alt="Profile" className="rounded-lg max-w-80" />
           </div>
 
-          <blockquote className="w-[50%] bg-mybrown/50 p-5 rounded-xl">
+          <blockquote className="w-[50%] bg-mybrown/50 p-5 rounded-xl shadow-md shadow-mybrown">
             <p className="mb-16">
               I am a Financial Management graduate from Gensantos Foundation
               College with experience in accounting through various roles. I am
@@ -52,7 +52,7 @@ function About() {
             </p>
 
             <a href="#contact">
-              <button className="text-olive py-2 px-4 border-mybrown border-[3px] bg-mybrown hover:bg-opacity-80">
+              <button className="transition-colors duration-150 text-beige hover:text-olive py-2 px-4 border-mybrown border-[3px] hover:bg-mybrown">
                 Contact
               </button>
             </a>
@@ -62,13 +62,13 @@ function About() {
         <div className="flex flex-col w-full space-y-10">
           <h3 className="place-self-center text-center">Skills & Services</h3>
 
-          <figure className="grid grid-cols-2 gap-8 bg-mybrown/50 p-10 rounded-xl">
+          <figure className="grid grid-cols-2 gap-8 bg-mybrown/50 p-10 rounded-xl shadow-md shadow-mybrown">
             {services.map((service, index) => (
               <div
                 key={index}
                 className="flex border-4 border-mybrown rounded-full py-4 px-5 justify-between items-center"
               >
-                <h4>{service.name}</h4>
+                <h5>{service.name}</h5>
                 <div className="flex space-x-3 text-xl text-yellow-500">
                   {getStars(service.rating)}
                 </div>
