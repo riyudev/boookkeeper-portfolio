@@ -65,14 +65,14 @@ function Experience() {
   ];
 
   return (
-    <section id="experience" className="pt-28 space-y-10">
+    <section id="experience" className="pt-24 space-y-10">
       <h2>My Experiences</h2>
 
       <div className="grid grid-cols-2 gap-10 p-10">
         {experiences.map((experience, index) => (
           <figure
             key={index}
-            className="flex flex-col bg-mybrown/50 rounded-xl shadow-mybrown shadow-md p-10 space-y-5"
+            className="flex flex-col bg-mybrown/70 rounded-xl shadow-mybrown shadow-md p-10 space-y-5"
           >
             <header className="space-y-2">
               <h4 className="underline">{experience.company}</h4>
