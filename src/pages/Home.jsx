@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "../assets/chinmae2.png";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { SiUpwork } from "react-icons/si";
+import "../styles/Animation.css";
 
 function Home() {
   return (
@@ -12,16 +13,16 @@ function Home() {
       <figure className="flex items-center justify-center">
         <div className="flex flex-col space-y-10">
           <blockquote className="max-w-lg space-y-4">
-            <h1>
+            <h1 className="slide-h1">
               Hi! I'm Chin Mae<span className="text-3xl">. . .</span>
             </h1>
 
-            <figcaption>
+            <figcaption className="slide-p">
               <p>- A bookkeeper based in the Philippines.</p>
               <p>- A passionate in ensuring financial accuracy.</p>
             </figcaption>
 
-            <div className="flex space-x-2">
+            <div className="flex space-x-2 slide-icons">
               <a
                 href="https://www.facebook.com/share/1A4f5PGXWr/"
                 target="_blank"
@@ -48,9 +49,9 @@ function Home() {
             </div>
           </blockquote>
 
-          <div className="flex items-center space-x-5">
+          <div className="flex items-center space-x-5 ">
             <a href="#contact">
-              <button className="text-olive py-2 px-4 border-mybrown border-[3px] bg-mybrown hover:bg-opacity-80">
+              <button className="text-olive py-2 px-4 border-mybrown border-[3px] bg-mybrown hover:bg-opacity-80 fade-up1">
                 Contact
               </button>
             </a>
@@ -59,14 +60,14 @@ function Home() {
               href="https://drive.google.com/file/d/1kmZLse6MWo0GWmhBUIv7ZuwpsBshuZro/view"
               target="_blank"
             >
-              <button className="py-2 px-4 border-myorange border-[3px] hover:bg-myorange transition-colors duration-150">
+              <button className="py-2 px-4 border-myorange border-[3px] hover:bg-myorange transition-colors duration-150 fade-up2">
                 View Resume
               </button>
             </a>
           </div>
         </div>
 
-        <div className="max-w-md">
+        <div className="max-w-md fade-img ">
           <img src={Profile} alt="" />
         </div>
       </figure>
