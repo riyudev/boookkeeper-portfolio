@@ -67,7 +67,7 @@ function About() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="flex border-4 border-stone-500 rounded-full py-4 px-5 justify-between items-center"
+                className="flex border-4 border-olive/60 rounded-full py-4 px-5 justify-between items-center"
               >
                 <h5>{service.name}</h5>
                 <div className="flex space-x-3 text-xl text-yellow-500">
