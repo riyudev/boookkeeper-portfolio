@@ -3,12 +3,13 @@ import React from "react";
 function Experience() {
   const experiences = [
     {
-      company: "PMI GRANITE",
+      company: "LEO GLOBAL TALENT",
       role: "Bookkeeper",
-      duration: "2024 - Present",
+      duration: "US Client | 2024 - Present",
       tasks: [
         "Prepare Profit and Loss",
         "Invoicing",
+        "Bank Reconciliation",
         "BAS / IAS Preparation / Lodging",
         "Prepare Balance Sheet",
         "Superannuation Preparation / Lodging",
@@ -17,11 +18,12 @@ function Experience() {
     {
       company: "PMI GRANITE",
       role: "Bookkeeper",
-      duration: "2023-2024",
+      duration: "AU Client | 2023-2024",
       tasks: [
         "Recoding daily transaction",
         "Prepare Financial Statement",
         "Bank Reconciliation",
+        "Prepare Owner Draws",
         "Billing",
         "Prepare Month End Report",
       ],
@@ -31,6 +33,7 @@ function Experience() {
       role: "Accounting Supervisor",
       duration: "2022-2024",
       tasks: [
+        "Bank Reconciliation",
         "Help the team in addressing disputes",
         "Present Monthly Profit and Loss",
         "Prepare and checking revolving fund replenishment",
@@ -45,6 +48,7 @@ function Experience() {
       tasks: [
         "Sales Book recording",
         "Variance Analysis",
+        "Bank Reconciliation",
         "Bank Deposit for Daily Collection",
         "Managing Accounts Receivables and Payables",
         "Monthly and Daily Report for Revenue and Collection",
@@ -57,6 +61,7 @@ function Experience() {
       tasks: [
         "Variance Analysis",
         "Encoding data",
+        "Bank Reconciliation",
         "Preparing Invoices for payment",
         "Checking and Analyzing invoices",
         "Monitor payables to avoid overdue account",

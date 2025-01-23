@@ -6,9 +6,9 @@ const services = [
   { name: "Bookkeeping", rating: 5 },
   { name: "Accounting", rating: 5 },
   { name: "Data Entry", rating: 5 },
-  { name: "Financial Statements", rating: 4.5 },
+  { name: "Financial Statements", rating: 5 },
   { name: "Copy Writing", rating: 4.5 },
-  { name: "Payroll Processing", rating: 4 },
+  { name: "Payroll Processing", rating: 5 },
   { name: "Bank Reconciliation", rating: 4 },
   { name: "Business Analysis", rating: 4 },
 ];
