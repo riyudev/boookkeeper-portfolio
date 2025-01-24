@@ -8,7 +8,7 @@ function Contact() {
     <section id="contact" className="pt-24 space-y-9">
       <h2>Contact Me</h2>
 
-      <div className="flex flex-col items-center justify-center space-y-8 laptop:py-10 pb-10 laptop:pb-0">
+      <div className="flex flex-col items-center justify-center space-y-8 laptop:py-10 pb-10">
         <header className="flex flex-col justify-center space-y-3 laptop:px-10">
           <h3 className="text-center">Get In Touch</h3>
           <p className="text-center">
