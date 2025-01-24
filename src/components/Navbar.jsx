@@ -11,7 +11,7 @@ function Navbar() {
           <a href="/">Chin Mae</a>
         </h2>
 
-        <ul className="flex space-x-5 fade-links">
+        <ul className="hidden laptop:flex space-x-5 fade-links">
           <a href="#home">
             <li className="text-olive hover:text-beige">Home</li>
           </a>

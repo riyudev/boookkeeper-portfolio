@@ -10,7 +10,7 @@ function Home() {
       id="home"
       className="flex items-center justify-center min-h-screen"
     >
-      <figure className="flex items-center justify-center">
+      <figure className="flex flex-col-reverse laptop:flex-row items-center justify-center">
         <div className="flex flex-col space-y-10">
           <blockquote className="max-w-lg space-y-4">
             <h1 className="slide-h1">
@@ -67,7 +67,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="max-w-md fade-img ">
+        <div className="max-w-60 laptop:max-w-md fade-img ">
           <img src={Profile} alt="" />
         </div>
       </figure>

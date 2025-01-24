@@ -9,7 +9,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen items-center bg-olive">
+    <div className="flex flex-col min-h-screen items-center justify-center bg-olive">
       <Navbar />
       <div className="max-w-7xl w-full px-4">
         <Home />

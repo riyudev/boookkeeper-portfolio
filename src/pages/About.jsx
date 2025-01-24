@@ -37,7 +37,7 @@ function About() {
       <h2 className="te">About Me</h2>
 
       <div className="flex flex-col items-center justify-center space-y-10">
-        <figure className="flex items-center justify-center p-10 space-x-6">
+        <figure className="flex flex-col laptop:flex-row items-center justify-center p-10 space-x-6">
           <div className="max-w-md bg-mybrown/70 p-4 rounded-xl shadow-md shadow-mybrown">
             <img src={Chinmae} alt="Profile" className="rounded-lg max-w-80" />
           </div>
@@ -63,11 +63,11 @@ function About() {
         <div className="w-full space-y-10 px-10 pb-10">
           <h3 className="place-self-center text-center">Skills & Services</h3>
 
-          <figure className="grid grid-cols-2 gap-8 bg-mybrown/70 p-10 rounded-xl shadow-md shadow-mybrown">
+          <figure className="grid grid-cols-1 laptop:grid-cols-2 gap-8 p-10 rounded-xl">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="flex border-4 border-olive/60 rounded-full py-4 px-5 justify-between items-center"
+                className="flex shadow-md shadow-mybrown/50 rounded-xl py-4 px-5 justify-between items-center bg-mybrown/70"
               >
                 <h5>{service.name}</h5>
                 <div className="flex space-x-3 text-xl text-yellow-500">
