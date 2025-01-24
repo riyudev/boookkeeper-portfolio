@@ -1,23 +1,23 @@
 @tailwind base;
 @layer base {
   h1 {
-    @apply text-5xl font-montserratExtraBold text-beige;
+    @apply text-3xl laptop:text-5xl font-montserratExtraBold text-beige;
   }
   h2 {
-    @apply text-4xl font-montserratBold text-beige;
+    @apply text-2xl laptop:text-4xl font-montserratBold text-beige;
   }
   h3 {
-    @apply font-montserratBold text-3xl text-beige;
+    @apply font-montserratBold text-xl laptop:text-3xl text-beige;
   }
   h4 {
-    @apply font-montserratBold text-xl text-beige;
+    @apply font-montserratBold text-base laptop:text-xl text-beige;
   }
   h5 {
-    @apply font-montserratBold text-lg text-beige;
+    @apply font-montserratBold text-sm laptop:text-lg text-beige;
   }
   li,
   button {
-    @apply font-montserratBold text-beige text-lg;
+    @apply font-montserratBold text-beige text-base laptop:text-lg;
   }
   label,
   p {

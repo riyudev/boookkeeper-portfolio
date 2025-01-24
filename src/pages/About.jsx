@@ -37,12 +37,16 @@ function About() {
       <h2 className="te">About Me</h2>
 
       <div className="flex flex-col items-center justify-center space-y-10">
-        <figure className="flex flex-col laptop:flex-row items-center justify-center p-10 space-x-6">
-          <div className="max-w-md bg-mybrown/70 p-4 rounded-xl shadow-md shadow-mybrown">
-            <img src={Chinmae} alt="Profile" className="rounded-lg max-w-80" />
+        <figure className="flex flex-col laptop:flex-row items-center justify-center  laptop:p-10 space-x-0 laptop:space-x-6">
+          <div className="place-items-center max-w-md w-full bg-mybrown/70 p-4 rounded-xl shadow-md shadow-mybrown mb-5 laptop:mb-0">
+            <img
+              src={Chinmae}
+              alt="Profile"
+              className="rounded-lg max-w-80 w-full"
+            />
           </div>
 
-          <blockquote className="w-[50%] bg-mybrown/70 p-5 rounded-xl shadow-md shadow-mybrown">
+          <blockquote className="laptop:w-[50%] bg-mybrown/70 p-5 rounded-xl shadow-md shadow-mybrown">
             <p className="mb-16">
               I am a Financial Management graduate from Gensantos Foundation
               College with experience in accounting through various roles. I am
@@ -60,17 +64,17 @@ function About() {
           </blockquote>
         </figure>
 
-        <div className="w-full space-y-10 px-10 pb-10">
+        <div className="w-full space-y-5 laptop:space-y-10 laptop:px-10 laptop:pb-10">
           <h3 className="place-self-center text-center">Skills & Services</h3>
 
-          <figure className="grid grid-cols-1 laptop:grid-cols-2 gap-8 p-10 rounded-xl">
+          <figure className="grid grid-cols-1 laptop:grid-cols-2 gap-8 laptop:p-10 rounded-xl">
             {services.map((service, index) => (
               <div
                 key={index}
                 className="flex shadow-md shadow-mybrown/50 rounded-xl py-4 px-5 justify-between items-center bg-mybrown/70"
               >
                 <h5>{service.name}</h5>
-                <div className="flex space-x-3 text-xl text-yellow-500">
+                <div className="flex space-x-1 laptop:space-x-3 text-xl text-yellow-500">
                   {getStars(service.rating)}
                 </div>
               </div>

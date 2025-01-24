@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="flex fixed top-0 w-full items-center justify-center bg-mybrown mx-auto transition-transform ease-in-out z-50 fade-nav">
       <div className="flex items-center justify-between max-w-7xl w-full backdrop-blur-lg bg-opacity-80 py-5 px-4">
-        <h2 className="text-3xl text-olive fade-links">
+        <h2 className="text-xl laptop:text-3xl text-olive fade-links">
           <a href="/">Chin Mae</a>
         </h2>
 

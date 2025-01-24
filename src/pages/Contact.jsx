@@ -8,8 +8,8 @@ function Contact() {
     <section id="contact" className="pt-24 space-y-9">
       <h2>Contact Me</h2>
 
-      <div className="flex flex-col items-center justify-center space-y-8 py-10">
-        <header className="flex flex-col justify-center space-y-3 px-10">
+      <div className="flex flex-col items-center justify-center space-y-8 laptop:py-10 pb-10 laptop:pb-0">
+        <header className="flex flex-col justify-center space-y-3 laptop:px-10">
           <h3 className="text-center">Get In Touch</h3>
           <p className="text-center">
             Whether you need help keeping your finances organized, insights on
@@ -19,7 +19,7 @@ function Contact() {
           </p>
         </header>
 
-        <figure className="grid grid-cols-3 gap-10 px-10 w-full">
+        <figure className="grid grid-cols-1 laptop:grid-cols-3 gap-10 px-5 laptop:px-10 w-full">
           <div className="place-items-center text-center bg-mybrown/60 p-8 space-y-4 rounded-xl shadow-md shadow-mybrown">
             <MdEmail className="text-5xl text-yellow-400" />
             <p className="text-wrap">chinmaebernal@gmail.com</p>

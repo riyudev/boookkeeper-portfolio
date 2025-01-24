@@ -13,16 +13,22 @@ function Home() {
       <figure className="flex flex-col-reverse laptop:flex-row items-center justify-center">
         <div className="flex flex-col space-y-10">
           <blockquote className="max-w-lg space-y-4">
-            <h1 className="slide-h1">
-              Hi! I'm Chin Mae<span className="text-3xl">. . .</span>
+            <h1 className="slide-h1 text-center">
+              Hi! I'm Chin Mae
+              <span className="text-3xl tracking-wider">...</span>
             </h1>
 
             <figcaption className="slide-p">
-              <p>- A bookkeeper based in the Philippines.</p>
-              <p>- A passionate in ensuring financial accuracy.</p>
+              <p className="text-center laptop:text-start">
+                - A bookkeeper based in the Philippines.
+              </p>
+
+              <p className="text-center laptop:text-start">
+                - A passionate in ensuring financial accuracy.
+              </p>
             </figcaption>
 
-            <div className="flex space-x-2 slide-icons">
+            <div className="flex items-center justify-center laptop:justify-start space-x-2 slide-icons">
               <a
                 href="https://www.facebook.com/share/1A4f5PGXWr/"
                 target="_blank"
@@ -49,7 +55,7 @@ function Home() {
             </div>
           </blockquote>
 
-          <div className="flex items-center space-x-5 ">
+          <div className="flex items-center justify-center laptop:justify-start space-x-5 ">
             <a href="#contact">
               <button className="text-olive py-2 px-4 border-mybrown border-[3px] bg-mybrown hover:bg-opacity-80 fade-up1">
                 Contact
@@ -67,7 +73,7 @@ function Home() {
           </div>
         </div>
 
-        <div className="max-w-60 laptop:max-w-md fade-img ">
+        <div className="max-w-44 laptop:max-w-md fade-img mb-5 laptop:mb-0">
           <img src={Profile} alt="" />
         </div>
       </figure>
