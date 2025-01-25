@@ -20,9 +20,14 @@ function Contact() {
         </header>
 
         <figure className="grid grid-cols-1 laptop:grid-cols-3 gap-10 px-5 laptop:px-10 w-full">
-          <div className="place-items-center text-center bg-mybrown/60 p-8 space-y-4 rounded-xl shadow-md shadow-mybrown">
-            <MdEmail className="text-5xl text-yellow-400" />
-            <p className="text-wrap">chinmaebernal@gmail.com</p>
+          <div className=" bg-mybrown/60 p-8 rounded-xl shadow-md shadow-mybrown">
+            <a
+              href="mailto:chinmaebernal@gmail.com"
+              className="flex flex-col justify-center items-center space-y-4"
+            >
+              <MdEmail className="text-5xl text-yellow-400" />
+              <p className="text-wrap">chinmaebernal@gmail.com</p>
+            </a>
           </div>
 
           <div className="place-items-center text-center bg-mybrown/60 p-8 space-y-4 rounded-xl shadow-md shadow-mybrown">

@@ -67,7 +67,7 @@ function About() {
         <div className="w-full space-y-5 laptop:space-y-10 laptop:px-10 laptop:pb-10">
           <h3 className="place-self-center text-center">Skills & Services</h3>
 
-          <figure className="grid grid-cols-1 laptop:grid-cols-2 gap-8 laptop:p-10 rounded-xl">
+          <figure className="grid grid-cols-1 laptop:grid-cols-2 gap-8 laptop:px-10 laptop:pb-10 rounded-xl">
             {services.map((service, index) => (
               <div
                 key={index}
